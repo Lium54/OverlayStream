@@ -1,0 +1,14 @@
+{
+    "TWITCH_TOKEN": "oauth:tonToken",
+    "CHANNELS": ["Tachainetwitch"],
+    "OVERLAY_CONFIG": {
+        "colors": {
+            "primary": "#ff2d95",
+            "secondary": "#9b59b6"
+        },
+        "positions": {
+            "chat": { "bottom": "50px", "right": "50px", "left": "auto", "top": "auto" },
+            "alerts": { "top": "50px", "left": "50px", "right": "auto", "bottom": "auto" }
+        }
+    }
+}

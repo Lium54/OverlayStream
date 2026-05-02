@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Stream Overlay</title>
+    <link rel="stylesheet" href="main-overlay.css">
+</head>
+<body>
+    <div class="overlay-wrapper">
+        <div class="scanlines"></div>
+        <!-- Particules de fond pour donner de la vie -->
+        <div class="background-decorations">
+            <div class="circle shape-1"></div>
+            <div class="circle shape-2"></div>
+        </div>
+
+        <div class="main-content-area">
+            <!-- Zone pour les alertes (nouveaux subs, follows, etc.) -->
+            <div id="alert-container" class="alert-container">
+                <!-- Les alertes seront insérées ici par JavaScript -->
+            </div>
+
+            <!-- Zone pour les informations récentes (dernier sub, dernier follow) -->
+            <div class="recent-events-container">
+                <div class="event-card"><span class="event-label">Dernier Sub:</span><span id="latest-sub" class="event-value">Aucun</span></div>
+                <div class="event-card"><span class="event-label">Dernier Follow:</span><span id="latest-follow" class="event-value">Aucun</span></div>
+                <!-- Vous pouvez ajouter d'autres événements ici (don, cheer, raid...) -->
+            </div>
+
+            <!-- Zone de Chat -->
+            <div id="chat-container" class="chat-container"></div>
+        </div>
+
+        <script src="main-overlay.js"></script>
+    </div>
+</body>
+</html>
